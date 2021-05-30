@@ -9,7 +9,7 @@ using namespace std;
 TEST(testNTreeCreation, InputFileReadingTest) // 10 marks
 {
 	string inputFilePath = "input.txt";
-	string outputFilePath = "<complete file path required>"; // file must be created in solution folder
+	string outputFilePath = "C:/Users/zohai/Desktop/output.txt"; // file must be created in solution folder
 	string expectedFilePath = "LevelOrderOutput.txt";
 
 	createTree(inputFilePath);
@@ -62,7 +62,7 @@ TEST(testNTreeCreation, InputFileReadingTest) // 10 marks
 TEST(insertFile, insertFileTest) { // 5 marks
 
 	string inputFilePath = "input.txt";
-	string outputFilePath = "<complete file path required>"; // file must be created in solution folder
+	string outputFilePath = "C:/Users/zohai/Desktop/output.txt"; // file must be created in solution folder
 	string expectedFilePath = "InsertFileOutput.txt";
 	string source = "testcase.txt";
 	string targetPath = "/root/bin/apt-get";
@@ -115,7 +115,7 @@ TEST(insertFile, insertFileTest) { // 5 marks
 TEST(insertFolder, insertFolderTest) { // 5 marks
 
 	string inputFilePath = "input.txt";
-	string outputFilePath = "<complete file path required>"; // file must be created in solution folder
+	string outputFilePath = "C:/Users/zohai/Desktop/output.txt"; // file must be created in solution folder
 	string expectedFilePath = "InsertFolderOutput.txt";
 	string source = "testcase";
 	string targetPath = "/usr/dev";
@@ -168,7 +168,7 @@ TEST(insertFolder, insertFolderTest) { // 5 marks
 TEST(insertFolderFail, insertFolderFailTest) { // 5 marks
 
 	string inputFilePath = "input.txt";
-	string outputFilePath = "<complete file path required>"; // file must be created in solution folder
+	string outputFilePath = "C:/Users/zohai/Desktop/output.txt"; // file must be created in solution folder
 	string expectedFilePath = "LevelOrderOutput.txt";
 	string source = "testcase";
 	string targetPath = "/usr/dev/echo.txt";
@@ -221,7 +221,7 @@ TEST(insertFolderFail, insertFolderFailTest) { // 5 marks
 TEST(deleteFile, deleteFileTest) { // 5 marks
 
 	string inputFilePath = "input.txt";
-	string outputFilePath = "<complete file path required>"; // file must be created in solution folder
+	string outputFilePath = "C:/Users/zohai/Desktop/output.txt"; // file must be created in solution folder
 	string expectedFilePath = "DeleteFileOutput.txt";
 	string targetPath = "/root/bin/ls.cpp";
 
@@ -273,7 +273,7 @@ TEST(deleteFile, deleteFileTest) { // 5 marks
 TEST(deleteFolder, deleteFolderTest) { // 5 marks
 
 	string inputFilePath = "input.txt";
-	string outputFilePath = "<complete file path required>"; // file must be created in solution folder
+	string outputFilePath = "C:/Users/zohai/Desktop/output.txt"; // file must be created in solution folder
 	string expectedFilePath = "DeleteFolderOutput.txt";
 	string targetPath = "/home/Desktop/Assignments";
 
@@ -325,7 +325,7 @@ TEST(deleteFolder, deleteFolderTest) { // 5 marks
 TEST(mergeFolder, mergeFolderTest) { // 20 marks
 
 	string inputFilePath = "input.txt";
-	string outputFilePath = "<complete file path required>"; // file must be created in solution folder
+	string outputFilePath = "C:/Users/zohai/Desktop/output.txt"; // file must be created in solution folder
 	string expectedFilePath = "MergeFolderOutput.txt";
 	string sourcePath = "/home/Desktop/Assignments";
 	string targetPath = "/root/bin/apt-get";
@@ -378,7 +378,7 @@ TEST(mergeFolder, mergeFolderTest) { // 20 marks
 TEST(searchFile, searchFileTest) { // 5 marks
 
 	string inputFilePath = "input.txt";
-	string outputFilePath = "<complete file path required>"; // file must be created in solution folder
+	string outputFilePath = "C:/Users/zohai/Desktop/output.txt"; // file must be created in solution folder
 	string expectedFilePath = "SearchFileOutput.txt";
 	string targetFile = "Test.cpp";
 
@@ -430,7 +430,7 @@ TEST(searchFile, searchFileTest) { // 5 marks
 TEST(searchFolder, searchFolderTest) { // 5 marks
 
 	string inputFilePath = "input.txt";
-	string outputFilePath = "<complete file path required>"; // file must be created in solution folder
+	string outputFilePath = "C:/Users/zohai/Desktop/output.txt"; // file must be created in solution folder
 	string expectedFilePath = "SearchFolderOutput.txt";
 	string targetFolder = "lib";
 
